@@ -2,6 +2,14 @@ package encapsulation;
 
 public class Pupil {
 	private String name;
+	private String email;
+	private Subject[] subjects=new Subject[5];
+	
+	Pupil(String name,String email) {
+		this.name=name;
+		this.email=email;
+	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -12,13 +20,6 @@ public class Pupil {
 		this.subjects = subjects;
 	}
 
-	private String email;
-	private Subject[] subjects=new Subject[5];
-	
-	Pupil(String name,String email) {
-		this.name=name;
-		this.email=email;
-	}
 	public String getName() {
 		return name;
 	}

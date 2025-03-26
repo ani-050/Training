@@ -7,7 +7,7 @@ public class SubDriver {
 		Scanner sc=new Scanner(System.in);
 		Pupil c=new Pupil("gfd","fdh");
 		System.out.println("Enter the name:");
-		sc.setName();
+		int numOfStudent
 		c.addSubject("c++",5);
 		c.addSubject("java",4);
 		c.addSubject("python",3);
