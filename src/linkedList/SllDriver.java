@@ -24,6 +24,7 @@ public class SllDriver {
 		s.update(5, 1);
 		s.display();
 		System.out.println(s.search(5));
+		System.out.println(s.get(1));
 	}
 
 }

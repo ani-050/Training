@@ -171,6 +171,18 @@ public class SLL {
 		return -1;
 	}
 	
+	public int get(int index) {
+		if(index<0 || index>=size)
+			throw new IndexOutOfBoundsException();
+		Node temp=head;
+		int i=0;
+		while(i!=index) {
+			temp=temp.next;
+			i++;
+		}
+		return temp.value;
+	}
+	
 	public void display() {
 		Node temp=head;
 		StringBuffer sb=new StringBuffer("[");
