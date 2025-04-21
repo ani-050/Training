@@ -3,6 +3,7 @@ package searching;
 public class Linear2d {
 	
 	public static int[] search2d(int arr[][]) {
+		int[] res=new int[2];
 		int i,j = 0;
 		int search=7;
 		for(i=0;i<arr.length;i++) {
