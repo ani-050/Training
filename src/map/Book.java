@@ -23,9 +23,5 @@ public class Book {
 		return this.title;
 	}
 	
-	@Override
-	public int equals() {
-		
-	}
 
 }
