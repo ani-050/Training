@@ -16,6 +16,9 @@ public class PhoneNo {
 			String s=matcher.group();
 			System.out.println(s);
 		}
+		
+		text=matcher.replaceAll("@");
+		System.out.println(text);
 	}
 
 }
